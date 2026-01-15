@@ -5,7 +5,11 @@ const RenderName = (props) => {
 };
 
 RenderName.PropTypes = {
-    name: PropTypes.string.isRequired,
+    name: PropTypes.string,
+};
+
+RenderName.defaultProps = {
+    name: 'Test',
 };
 
 export default RenderName;
